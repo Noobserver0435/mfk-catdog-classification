@@ -1,0 +1,10 @@
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Исходные данные (не загружать в репозиторий)
+train/
+train.zip
+
+# Обученные веса (можно пересоздать командой python train.py)
+results/*.pth
